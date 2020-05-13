@@ -18,7 +18,7 @@
                         <v-icon>mdi-settings</v-icon>
                     </v-list-item-action>
                     <v-list-item-content>
-                        <v-list-item-title>l</v-list-item-title>
+                        <v-list-item-title>Settings</v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
             </v-list>
@@ -28,19 +28,20 @@
             app
             clipped-left>
             <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-            <v-toolbar-title>CSC Chat</v-toolbar-title>
+            <v-toolbar-title>CSCChat</v-toolbar-title>
         </v-app-bar>
 
         <v-content>
             <div class="page-content">
                 <router-view name="page--content" />
             </div>
-            <!--<Chat/>-->
         </v-content>
 
+        <!--
         <v-footer app>
-            <span>&copy; Wesam Jabali 2020</span>
-        </v-footer>-->
+        <span>&copy; Wesam Jabali 2020</span>
+        </v-footer> 
+        -->
     </v-app>
 </template>
 
