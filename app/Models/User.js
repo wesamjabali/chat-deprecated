@@ -38,6 +38,10 @@ class User extends Model {
     rooms() {
         return this.belongsToMany('App/Models/Room').pivotTable('room_users');
     }
+
+    messages() {
+        return this.hasMany('App/Models/Message').pivotTable('messages');
+    }
 }
 
 module.exports = User;

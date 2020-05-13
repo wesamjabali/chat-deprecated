@@ -28,20 +28,21 @@
             app
             clipped-left>
             <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-            <v-toolbar-title>CSCChat</v-toolbar-title>
+            <v-toolbar-title>CSS Chat App</v-toolbar-title>
         </v-app-bar>
 
         <v-content>
             <div class="page-content">
                 <router-view name="page--content" />
             </div>
+            <Chat/>
         </v-content>
 
-        <!--
+        
         <v-footer app>
         <span>&copy; Wesam Jabali 2020</span>
         </v-footer> 
-        -->
+       
     </v-app>
 </template>
 

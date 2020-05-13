@@ -1,6 +1,6 @@
 'use strict';
 
-class Game {
+class Room {
     get rules () {
         return {
             name: 'required|string',
@@ -10,7 +10,7 @@ class Game {
 
     get messages() {
         return {
-            'name.required': 'Game name is required.',
+            'name.required': 'Room name is required.',
             'name.string': 'Name must be a valid string',
             'password.string': 'Password must be a valid string',
             'password.max': 'Passwords must be no more than 8 characters',
@@ -19,4 +19,4 @@ class Game {
     }
 }
 
-module.exports = Game;
+module.exports = Room;

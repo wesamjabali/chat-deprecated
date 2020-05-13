@@ -4,10 +4,10 @@
     </div>
 </template>
 <script>
-import RoomCreateUpdateDeleteForm from '../../forms/RoomCreateUpdateDeleteForm.vue';
+import RoomCreateUpdateDeleteForm from './../../forms/RoomCreateUpdateDeleteForm.vue';
 export default {
     components: {
-        RoomlCreateUpdateDeleteForm
+        RoomCreateUpdateDeleteForm
     }
 };
 </script>
