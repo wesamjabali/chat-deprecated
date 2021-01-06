@@ -37,7 +37,7 @@
     "@adonisjs/websocket-client": "^1.0.9",
     "@amcharts/amcharts4": "^4.9.20",
     "@amcharts/amcharts4-geodata": "^4.1.15",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "base-64": "^0.1.0",
     "core-js": "^3.6.5",
     "ignitor": "^1.0.1",
